@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://atleticagiomaga.github.io/atletica",
   "scripts": {
-    "predeploy": "npm run build && echo 'preparatoreatleticogiomaga.com' > CNAME",
+    "predeploy": "echo 'preparatoreatleticogiomaga.com' > CNAME",
     "deploy": "gh-pages -d .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
