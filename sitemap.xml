@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.atleticagiomaga.it/</loc>
+        <lastmod>2026-01-17</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    <!-- Chi Sono -->
+    <url>
+        <loc>https://www.atleticagiomaga.it/chi-sono</loc>
+        <lastmod>2026-01-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    
+    <!-- Programmi di Allenamento -->
+    <url>
+        <loc>https://www.atleticagiomaga.it/programmi-di-allenamento</loc>
+        <lastmod>2026-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Testimonianze -->
+    <url>
+        <loc>https://www.atleticagiomaga.it/testimonianze</loc>
+        <lastmod>2026-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    
+    <!-- Contatti -->
+    <url>
+        <loc>https://www.atleticagiomaga.it/contatti</loc>
+        <lastmod>2026-01-17</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <!-- Blog (if applicable in the future) -->
+    <!--
+    <url>
+        <loc>https://www.atleticagiomaga.it/blog</loc>
+        <lastmod>2026-01-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    -->
+    
+    <!-- Images (example - update with your actual images) -->
+    <!--
+    <url>
+        <loc>https://www.atleticagiomaga.it/img/logo-giomaga.jpg</loc>
+        <image:image>
+            <image:loc>https://www.atleticagiomaga.it/img/logo-giomaga.jpg</image:loc>
+            <image:caption>Preparatore Atletico GioMaga - Logo</image:caption>
+            <image:title>Preparatore Atletico GioMaga</image:title>
+        </image:image>
+    </url>
+    -->
+    
+</urlset>
