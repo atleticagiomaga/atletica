@@ -1,0 +1,85 @@
+# robots.txt for atleticagiomaga.it
+# Last updated: 2026-01-17
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.atleticagiomaga.it/sitemap.xml
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /cgi-bin/
+
+# Allow all robots to access all content by default
+# as this is a small website with public content
+
+# Disallow specific file types
+Disallow: /*.php$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Allow all other files and directories
+Allow: /*.html$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.webp$
+
+# Crawl-delay: 10  # Uncomment and adjust if needed to limit crawl rate
+
+# Block specific pages if needed in the future
+# Disallow: /temporary/
+# Disallow: /draft/
+
+# Block search engines from indexing search results and parameters
+Disallow: /*?*
+Disallow: /*&*
+
+# Block common development and configuration files
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/cache/
+Disallow: /xmlrpc.php
+Disallow: /readme.html
+Disallow: /license.txt
+
+# Allow Google to index all images
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.png$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Social media crawlers
+User-agent: Twitterbot
+Allow: /*
+
+User-agent: LinkedInBot
+Allow: /*
+
+User-agent: FacebookExternalHit
+Allow: /*
+
+# Block AI web crawlers (optional)
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+# Block archive crawlers
+User-agent: ia_archiver
+Disallow: /
+
+# Block other unwanted bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
