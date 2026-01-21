@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.atleticagiomaga.it/sitemap.xml
+Sitemap: https://preparatoreatleticogiomaga.com/sitemap.xml
 
 # Disallow admin and private directories
 Disallow: /admin/
